@@ -1,0 +1,149 @@
+/* .sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  height: 80px;
+  margin-left: -25px;
+  margin-top: -25px;
+  margin-bottom: 28px;
+}
+
+.head {
+  font-size: 11px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 12px;
+  letter-spacing: 0.8px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  padding: 10px 0;
+  color: #000;
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.menu li.active {
+  color: #6A1B9A; 
+  font-weight: 500;
+}
+
+.menu li:hover{
+  color:#6A1B9A;
+  font-weight: 500;
+}
+
+.bottom-section {
+  margin-top: 40px;
+}
+
+.settings,
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.settings {
+  color: #333;
+}
+
+.logout {
+  color: #F44336; 
+  font-weight: 500;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+} */
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  width: 130px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.menu,
+.bottom-section {
+  padding: 0 20px;
+}
+
+.head {
+  font-size: 12px;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.menu li {
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+.menu li a,
+.settings,
+.logout {
+  display: flex;
+  align-items: center;
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.menu li a.active,
+.menu li a:hover,
+.settings:hover,
+.logout:hover {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.icon {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+}

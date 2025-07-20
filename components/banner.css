@@ -1,0 +1,67 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 190px; 
+  width: 100%;   
+  box-sizing: border-box;
+}
+
+.banner-text {
+  z-index: 1;
+}
+
+.banner-tag {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #e0d8f5;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.banner-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.join-btn {
+  background-color: #1C1C1C;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.play-circle {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-circle img {
+  width: 8px;
+  height: 8px;
+  transform: rotate(90deg);
+}

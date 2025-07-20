@@ -1,0 +1,13 @@
+.courses-page {
+  display: flex;
+  flex-direction: row;   
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+
+.courses-page > * {
+  flex: 1;
+  min-width: 300px;
+}

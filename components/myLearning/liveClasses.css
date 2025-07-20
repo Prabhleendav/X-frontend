@@ -1,0 +1,49 @@
+.lives-classes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-label {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.class-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.class-card {
+  padding: 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.class-card.past {
+  background-color: #6d1d5e;
+  color: white;
+}
+
+.class-card.upcoming {
+  border: 1px solid #6d1d5e;
+  color: black;
+}
+
+.class-type {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.class-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.class-time {
+  font-weight: 600;
+}

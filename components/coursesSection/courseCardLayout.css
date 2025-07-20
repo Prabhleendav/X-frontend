@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.recent-enrolled-container {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: fit-content;           
+  max-width: none;            
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.section-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.all-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.search-circle {
+  width: 26px;
+  height: 26px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-circle img {
+  width: 14px;
+  height: 14px;
+}
+
+.recent-class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.class-card {
+  width: 570px;               
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #fefefe;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.class-card.active {
+  border: 1.5px solid #6d1d5e;
+  background-color: #fdf4ff;
+}
+
+.tick-icon img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.class-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.class-icon-box {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.class-icon-box img {
+  width: 24px;
+  height: 24px;
+}
+
+.class-info h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.class-meta {
+  display: flex;
+  gap: 14px;
+  font-size: 13px;
+  color: #666;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.class-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.class-meta img {
+  width: 14px;
+  height: 14px;
+}

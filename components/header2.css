@@ -1,0 +1,82 @@
+.headerNew-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: -30px 10px;  
+  margin-top: -40px;          
+  background-color: #f9f9f9;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+}
+
+
+.headerNew-left h2 {
+  margin: 0;
+  font-size: 20px; 
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.headerNew-left p {
+  margin-top: 3px; 
+  font-size: 13px;
+  color: #666;
+}
+
+.headerNew-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.headerNew-searchbox {
+  position: relative;
+  width: 280px; 
+}
+
+.headerNew-searchbox input {
+  width: 100%;
+  padding: 8px 36px 8px 12px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.headerNew-searchbox input:focus {
+  border-color: #5E35B1;
+  box-shadow: 0 0 0 2px rgba(94, 53, 177, 0.1);
+}
+
+.headerNew-search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+}
+
+.headerNew-right {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+}
+
+.headerNew-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.headerNew-profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}

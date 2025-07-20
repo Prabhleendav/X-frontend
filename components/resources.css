@@ -1,0 +1,28 @@
+.resources {
+  flex: 1;
+  width:400px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.resources-cards {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.resource-card {
+  text-align: center;
+}
+
+.resource-card img {
+  width: 150px;
+  height: 160px;
+  margin-bottom: 8px;
+}
+
+

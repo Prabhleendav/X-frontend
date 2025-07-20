@@ -1,0 +1,57 @@
+.learning-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 14px 18px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  margin-right: 20px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.icon-section .icon-bg {
+  background-color: #e9d9e7;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-section {
+  flex-grow: 1;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.watched-text {
+  font-size: 12.5px;
+  color: #666;
+  margin: 0;
+  font-weight: 400;
+}
+
+.course-title {
+  font-size: 14.5px;
+  font-weight: 600;
+  margin-top: 4px;
+  color: #000;
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0.85;
+  transform: rotate(90deg);
+}

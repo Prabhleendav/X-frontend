@@ -1,0 +1,9 @@
+.common-page {
+width: 100%; 
+  max-width: 1380px; 
+  padding: 40px 50px;
+  background: #f9f9f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
